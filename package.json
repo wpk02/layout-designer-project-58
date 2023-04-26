@@ -6,6 +6,11 @@
     "type": "git",
     "url": "https://github.com/wpk02/layout-designer-project-58.git"
   },
+  "scripts": {
+    "lint:css": "stylelint ./src/styles/*.css",
+    "lint:scss": "stylelint ./src/styles/**/*.scss",
+    "lint:html": "htmlhint ./src/*.html"
+  },
   "main": "",
   "devDependencies": {
     "htmlhint": "^1.1.4",
